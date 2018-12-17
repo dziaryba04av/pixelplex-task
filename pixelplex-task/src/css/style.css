@@ -1,0 +1,182 @@
+
+body {
+  background-color: #2b0549;
+}
+
+.container {
+  background-color:#7b297d;
+}
+
+.header {
+  background-color:#7b297d;
+}
+
+.logo-img {
+  width: 100%;
+}
+
+.link-container {
+  text-align: center;
+  vertical-align: center;
+  line-height: 5em;
+  height: 71px;
+}
+
+.link-container a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.link-container a:hover {
+  color: #eae8e5;
+  border-bottom: 1px solid #eae8e5;
+}
+.heading {
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  border-bottom: 2px dotted #ffffff;
+}
+
+.task {
+  min-height: 200px;
+  border-top: 4px solid #2b0549;
+}
+
+.list-heading,
+.counter-heading {
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  width: 100%;
+  min-height: 40px;
+  margin-top: 10px;
+  padding-left: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height:  40px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #2b0549;
+  list-style-type: none;
+}
+
+.list li div {
+  padding-right: 95px;
+}
+
+.message-container {
+  position: relative;
+  
+}
+
+.message-delete-button {
+  position: absolute;
+  right: 0;
+  height: 40px;
+}
+
+
+.task-one-form {
+  margin-top: 10px;
+}
+
+.submit {
+  width: 100%;
+}
+
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  margin-top: 20px;
+  border-radius: 5px;   
+  background: #eae8e5;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #e87888;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #2b0549;
+  cursor: pointer;
+}
+
+.list-heading {
+  margin-top: 10px;
+  font-size: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.list {
+  padding: 0;
+}
+
+.list li {
+  width: 100%;
+  min-height: 40px;
+  margin-top: 10px;
+  padding-left: 5px;
+  overflow: hidden;
+  font-size: 16px;
+  line-height:  40px;
+  color: #ffffff;
+  border-radius: 5px;
+  background-color: #2b0549;
+  list-style-type: none;
+}
+
+.list li div {
+  padding-right: 95px;
+}
+
+.message-container {
+  position: relative;
+  
+}
+
+.message-delete-button {
+  position: absolute;
+  right: 0;
+  height: 40px;
+}
+
+.labels-container {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.labels-container div + div {
+  text-align: right;
+}
